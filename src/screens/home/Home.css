@@ -29,6 +29,11 @@
       linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%);
   }
 
+  .flex-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .rootForReleasedMovies{
     width: 76%;
     margin: 1%;
@@ -40,7 +45,10 @@
   .rootForCard{
     width: 24%;
     margin: 1%;
-    height: 350px;
+    height: 380px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
   }
 
   .titleForCard {
@@ -57,7 +65,11 @@
     width: 200;
   }
 
-  .flex-container{
-    display: flex;
-    justify-content: space-evenly;
+  .formControl {
+    margin: 1%;
+    width: 120px;
   }
+  .selectEmpty {
+    margin-top: 2%;
+  }
+  
